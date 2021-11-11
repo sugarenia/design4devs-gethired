@@ -1,9 +1,7 @@
 /*
   Design for Developers
   A workshop by Zaharenia Atzitzikaki
-  DEVit Conference, May 2017
-
-  Step 5
+  Get Hired Crete, November 2021
 */
 
 /*****************
@@ -11,14 +9,14 @@
  *****************/
 @import "bootstrap.css";
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
 
 /*****************
  * general rules
  *****************/
 body {
-	font: 16px 'Source Sans Pro', sans-serif;
-	line-height: 1.4;
+	font: 18px 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
 	color: #53606f;
 	background-color: #fff;
 }
@@ -31,6 +29,10 @@ h1, h2, h3, h4 {
 	font-weight: normal;
 	font-family: 'Oxygen', sans-serif;
 	color: #07162f;
+}
+
+h1 strong {
+	color: #ee5fde;
 }
 
 h2 {
@@ -209,6 +211,7 @@ figure {
 	list-style-position: outside;
 	flex-grow: 1;
 	text-align: left;
+  font-size: 16px;
 }
 
 .plan li + li {
