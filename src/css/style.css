@@ -322,6 +322,112 @@ figure {
 	text-decoration: underline;
 }
 
+/*****************
+* blog
+*****************/
+.blogPosts {  
+  margin: 35px 0 0; 
+  list-style: none;
+}
+
+.blogPosts li + li {
+  margin-top: 16px;
+}
+
+.blogArchiveHeader {
+  margin-top: 32px;
+}
+
+.blogArchive {
+  padding-left: 16px;
+}
+
+.blogArchive li + li {
+  margin-top: 8px;
+}
+
+.blogContent {
+  margin-top: 32px;
+}
+
+.blogContent p + p {
+  margin-top: 16px;
+}
+
+.blogContent h3 {
+  margin: 32px 0 16px;
+}
+
+.blogContent ul,
+.blogContent ol {
+  margin: 32px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blogContent li {
+  line-height: 1.5;
+  padding-left: 32px;
+  position: relative;
+}
+
+.blogContent ul {
+  list-style: disc;
+  margin-left: -8px;
+}
+
+.blogContent ul li {
+  padding-left: 8px;
+}
+
+.blogContent ol {
+  margin: 32px 0 32px -32px;
+  counter-reset: li;
+}
+
+.blogContent ol li {
+  counter-increment: li;
+}
+
+.blogContent ol li:before {
+  content: counter(li) ".";
+  width: 32px;
+  text-align: right;
+  position: absolute;
+  left: -16px;
+}
+
+.blogContent li + li {
+  margin-top: 8px;
+}
+
+.blogContent blockquote {
+  font-size: 32px;
+  font-style: italic;
+  padding: 0;
+  margin: 32px 0;
+  position: relative;
+}
+
+.blogContent blockquote:before {
+  content: "\201D";
+  font-size: 96px;
+  font-style: italic;
+  color: #ee5fde;
+  position: absolute;
+  top: -32px;
+  left: -48px;
+}
+
+.blogContent figure {
+  margin: 32px 0;
+}
+
+.blogContent figcaption {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 16px;
+}
 
 /*****************
 * footer
